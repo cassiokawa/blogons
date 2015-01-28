@@ -35,7 +35,10 @@
        <li><a href="mailto:cassio.kawakita@gmail.com">Email</a></li>
       </ul>
  
-     <p class="sign_in">Admin Login</p>
+  <% if !user_signed_in? %>
+     <p class="sign_in"><%= link_to "Admin Login", new_user_session_path %></p>
+  <% end %>
+
   </div>
  
   <div id="main_content">
@@ -48,17 +51,22 @@
           <%= link_to "Back to All Posts", root_path %>
         <% end %>
 
+    <% if user_signed_in? %> 
       <div class="buttons">
         <button class="button"><%= link_to "New Post", new_post_path %></button>
-        <button class="button">Log Out</button>
+        <button class="button"><%= link_to "Log_out", destroy_user_session_path , :method => :delete %></button>
       </div>
-    </div>
+  <% end %> 
  
+    </div>
+  
+    
     <% flash.each do |name, msg| %>
       <%= content_tag(:div, msg, class: "alert") %>
     <% end %>
  
     <%= yield %>
+  
   </div>
 </body>
 </html>
