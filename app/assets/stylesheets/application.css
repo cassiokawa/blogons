@@ -16,7 +16,7 @@
 
 @import 'normalize';
 
-
+/*
 html, body {
   font-family: 'Raleway', sans-serif;
 }
@@ -52,7 +52,8 @@ a {
     top: 3em;
   }  /*closed #logo */
 
-  
+
+/*  
   ul {
     list-style: none;
     text-align: right;
@@ -66,7 +67,7 @@ a {
 	    } /*closed .category */
 	    
    
-
+/*
 	    li {
 	      padding: .5em 0;
 	        a {
@@ -79,7 +80,7 @@ a {
 	       }
 	    } /*closed li*/
 
-
+/*
 	    .active {
 	      a {
 	        color: #33acb7;
@@ -89,7 +90,7 @@ a {
 
  	 } /* closed ul */
 
-
+/*
 	  .sign_in {
 	    position: absolute;
 	    right: 3em;
@@ -100,6 +101,7 @@ a {
 } /*closed  #sidebar*/
  
 
+/*
 .button {
   outline: none;
   background: transparent;
@@ -115,6 +117,8 @@ a {
   }
 } /*closed .button */
  
+
+/* 
 .clearfix:after {
   content: ".";
   visibility: hidden;
@@ -125,6 +129,7 @@ a {
 } /* clearfix:after */
 
 
+/*
  
 #main_content {
   margin-left: 200px;
@@ -136,12 +141,12 @@ a {
 						   
 							    p {
 							      display: inline;
-							    } /*closed p */
+							    } /*closed p *//*
 							   
 							    a {
 							      color: #9eafba;
 							      text-decoration: none;
-							    } /*closed a */
+							    } /*closed a *//*
 							   
 							    .buttons {
 									      float: right;
@@ -154,6 +159,7 @@ a {
 				   		} /*closed #header */
  
 
+/*
   .post_wrapper {
 				    padding: 3em;
 				    border-bottom: 1px solid #d6dce0;
@@ -169,13 +175,13 @@ a {
 											        color: #33acb7;
 											      }
 								    }
-						  	} /*closed .title*/
+						  	} /*closed .title*//*
 
 					  .date_and_author {
 										    color: #9eafba;
 										    margin: .5em 0 0 0;
 									    } /*closed .date_and_authoer */
-				} /* post_wrapper */
+				} /* post_wrapper *//*
 
 
 	    #post_content {
@@ -187,17 +193,17 @@ a {
 					      color: #2a2f35;
 					      font-size: 2.5em;
 					      margin-bottom: 0;
-					    } /*closed*/
+					    } /*closed*//*
 		    
 					    .body {
 					      font-size: 1.1em;
 					      line-height: 1.75;
-					    }/*closed*/
+					    }/*closed*//*
 		    
 					    .date_and_author {
 					      color: #9eafba;
 					      margin: .5em 0 2em 0;
-					    }/*closed*/
+					    }/*closed*//*
 		    
 
 			    #comments {
@@ -206,16 +212,16 @@ a {
 							        margin: 3em 0 1em 0;
 							        border-bottom: 1px solid #d6dce0;
 							        padding-bottom: 0.5em;
-							      }/*closed*/
+							      }/*closed*//*
 						      
 						      h3 {
 							        margin-top: 2em;
-							      }/*closed*/
+							      }/*closed*//*
 						      
 						      .comment {
 									        border-bottom: 1px solid #d6dce0;
 									        padding: 1.5em 2em;
-									    }/*closed*/
+									    }/*closed*//*
 
 						      .comment_content {
 						        float: left;
@@ -223,28 +229,28 @@ a {
 												          margin: 1em 0 0 0;
 												          font-size: 0.7em;
 												          text-transform: uppercase;
-												       }/*closed*/
+												       }/*closed*//*
 								        .comment_body {
 												          font-size: 1.2em;
 												          margin: 0.2em 0 0 0;
-												       }/*closed*/
+												       }/*closed*//*
 								        .comment_time {
 											            margin-top: 1.2em;
 											            font-size: .8em;
 											           }/*closed*/
-						       	                } /* closed .comment_content*/
+						       	                } /* closed .comment_content*//*
 
 								       .button {
 								         float: right;
 								       }/*closed*/
-						    } /* #comments */
+						    } /* #comments *//*
 
 				      input[type="text"], textarea {
 											        width: 50%;
 					      							}/*closed*/
 	    }/*#post_content*/
 
-	} /* .post_wrapper */
+	} /* .post_wrapper *//*
 
 
   #page_wrapper {
@@ -273,7 +279,7 @@ a {
 						        text-decoration: none;
 						      }
 				    		}
-  				} /* #page_wrapper */
+  				} /* #page_wrapper *//*
   
 	  .links {
 	    margin: 2em 0;
@@ -307,7 +313,8 @@ a {
 	    &:hover {
 	      border: 1px solid #33acb7;
 	      color: #33acb7;
-	    } /*closed &:hover */
-	  } 
-	}
+	    } 
+	 } 
+
 }
+
